@@ -7,6 +7,7 @@
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @license     Unlicense; http://unlicense.org/
 // @version     0.2
+// @updateURL   https://github.com/wadforth/Trakt.tv-Ask4Movie/raw/main/Trakt%20link%20to%20Ask4Movie.user.js
 // @match       *://trakt.tv/*
 // @run-at document-start
 // @inject-into     page
