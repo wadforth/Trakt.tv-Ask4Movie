@@ -6,7 +6,7 @@
 // @grant       none
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @license     Unlicense; http://unlicense.org/
-// @version     0.2
+// @version     0.3
 // @updateURL   https://github.com/wadforth/Trakt.tv-Ask4Movie/raw/main/Trakt%20link%20to%20Ask4Movie.user.js
 // @match       *://trakt.tv/*
 // @run-at document-start
@@ -21,10 +21,8 @@ $(function() {
     const element = document.getElementsByClassName('mobile-title')[0];
     const certification = document.getElementsByClassName('certification')[0];
     certification.remove();
-    var button = document.createElement('button');
-    button.type = 'button';
-    button.innerHTML = '<img src="https://ask4movie.cc/wp-content/uploads/2018/04/the-logo.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/>';
-    button.className = 'btn-styled';
+    var button = document.createElement('div');
+    button.innerHTML = '<a href=""><img src="https://ask4movie.io/wp-content/uploads/2021/09/cropped-Icon-Logo-32x32.png" style="display: block; width: 3%;"/></a>';
     console.log(element.innerText);
 
     //Searches show direct, should show all seasons
