@@ -21,6 +21,6 @@
      <h3 align="center"><b>Disclaimer:</b> Disclaimer: I do not condone piracy, this script was created entirely for educational purposes. Use the official services provided by trakt when neccessary.</h3>
 </p>
 <h4>
-The first interation of the script will work for movies that the website supports, there are a couple of movies tested that are not available on the website, but mostly should work for all. TV shows will be supported in the 2nd interation.</h4>
+Works with movies and shows. Linking directly to seasons will be added soon.</h4>
 
 <img src="image.png">
