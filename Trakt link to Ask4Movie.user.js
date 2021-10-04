@@ -6,7 +6,7 @@
 // @grant       none
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @license     Unlicense; http://unlicense.org/
-// @version     1.0
+// @version     1.1
 // @updateURL   https://github.com/wadforth/Trakt.tv-Ask4Movie/raw/main/Trakt%20link%20to%20Ask4Movie.user.js
 // @match       *://trakt.tv/*
 // @match       *://trakt.tv/shows/*/seasons/*
@@ -22,7 +22,10 @@ $(function() {
     const certification = document.getElementsByClassName('certification')[0];
     const streaming = document.getElementsByClassName('streaming-links')[0];
     const date = document.getElementsByClassName('year')[0];
+    if ($(".certification")[0]){
     certification.remove();
+}
+
     var button = document.createElement('div');
     button.innerHTML = '<a href=""><img src="https://ask4movie.io/wp-content/uploads/2021/09/cropped-Icon-Logo-32x32.png" style="display: block; margin-left: auto; margin-right: auto; width: 50%;"/></a>';
 
@@ -51,4 +54,4 @@ $(function() {
         }
     }
     streaming.appendChild(button);
-})();
+});
