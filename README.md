@@ -18,9 +18,10 @@
         <li>Done!</li>
     </ol>
     <hr>
-     <h3 align="center"><b>Disclaimer:</b> Disclaimer: I do not condone piracy, this script was created entirely for educational purposes. Use the official services provided by trakt when neccessary.</h3>
+     <h3 align="center"><b>Disclaimer:</b> I do not condone piracy, this script was created entirely for educational purposes. Use the official services provided by trakt when neccessary.</h3>
 </p>
 <h4>
-Works with movies and shows. Linking directly to seasons will be added soon.</h4>
+Works with movies, shows and individual seasons. Episode support won't be added due to the way Ask4Movies handles episodes (they're all linked to the same season URL).</h4>
+<h5>Due to how AJAX on trakt works, you may have to refresh the page for the Ask4Movies icon to appear.</h5>
 
 <img src="image.png">
