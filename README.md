@@ -24,4 +24,4 @@
 Works with movies, shows and individual seasons. Episode support won't be added due to the way Ask4Movies handles episodes (they're all linked to the same season URL).</h4>
 <h5>Due to how AJAX on trakt works, you may have to refresh the page for the Ask4Movies icon to appear.</h5>
 
-<img src="image.png">
+<img src="image.png" style="margin: auto;"/>
